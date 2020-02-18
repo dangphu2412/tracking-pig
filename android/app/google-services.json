@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1037341483185",
+    "firebase_url": "https://friendlymarket-c7140.firebaseio.com",
+    "project_id": "friendlymarket-c7140",
+    "storage_bucket": "friendlymarket-c7140.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037341483185:android:f9c71936de68e14ad48290",
+        "android_client_info": {
+          "package_name": "com.dscdut.tracking_pig_behavior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037341483185-6th26aujtb6uknad35jr0rbehqi6hkho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD49wJWdyOHNeHwngNUdKcTnYW9t_wD1tU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037341483185-6th26aujtb6uknad35jr0rbehqi6hkho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
