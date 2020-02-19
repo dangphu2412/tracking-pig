@@ -1,7 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tracking_pig_behavior/screens/models/user.dart';
+import 'package:tracking_pig_behavior/models/user.dart';
 import 'package:tracking_pig_behavior/screens/wrapper.dart';
 import 'package:tracking_pig_behavior/services/auth.dart';
 
