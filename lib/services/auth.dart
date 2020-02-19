@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:tracking_pig_behavior/screens/models/user.dart';
+import 'package:tracking_pig_behavior/models/user.dart';
+import 'package:tracking_pig_behavior/services/database.dart';
 
 class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -33,6 +34,10 @@ class AuthService {
     try {
       AuthResult result = await _auth.createUserWithEmailAndPassword(email: email, password: password);
       FirebaseUser user = result.user;
+
+      // create new document in Firestore
+      await DatabaseService(uid: user.uid).updateUserData(email, 20 , true);
+
       return _userFromFirebaseUser(user);
     } catch (e) {
       print(e.toString());
